@@ -4,12 +4,10 @@ EXECNAME = networker
 RM = rm
 
 %.o: %.c
-	$(CC) -c $<
+	@$(CC) -c $<
 
 all: $(OBJS)
 	@$(CC) $(OBJS) -o $(EXECNAME)
-	@echo $(PATH)
-	@echo $(DIKOBRAZ)
 
 clean:
-	$(RM) *.o $(EXECNAME)
+	@$(RM) *.o $(EXECNAME)
