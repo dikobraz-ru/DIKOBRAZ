@@ -10,7 +10,7 @@ int input(int *a1, int *a2, int *a3, int *a4,
 		printf("Invalid IP addr/netmask!\n");
 		return -1;
 	}
-
+	/*Adding test line with LF */
 	return 0;
 }
 
